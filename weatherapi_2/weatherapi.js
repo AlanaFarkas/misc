@@ -7,7 +7,7 @@ $(document).ready(function(){
 // var resp = JSON.parse(weather['response']);
 // console.log(resp[current_observation][display_location][full]);
 // });
-	$("#submit-button").click(function(){
+	// $("#submit-button").click(function(){
 		
 
 	var cold = ["Brrr it's cold", "Shit, stay inside", "Cancel all your plans, it's way too cold out"]
@@ -34,6 +34,6 @@ $(document).ready(function(){
 
 		});	
 
-	// })
+	});
 
-});
+// });
